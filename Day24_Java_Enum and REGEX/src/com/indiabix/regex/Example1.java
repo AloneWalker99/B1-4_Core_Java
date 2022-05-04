@@ -10,6 +10,6 @@ public class Example1
 		String input = s.nextLine();
 		boolean Result = Pattern.matches(pattern, input);
 		System.out.println(Result);
+		s.close();
 	}
-
 }
